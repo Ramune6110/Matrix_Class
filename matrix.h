@@ -1,12 +1,9 @@
 #ifndef _MATRIX_H_
 #define _MATRIX_H_
-#include <cstdio>
-#include <cstdlib>
 
 class Matrix {
     public:
         int SIZE;
-        float *A, *B, *solution;
     public:
         // コンストラクタ
         Matrix();
